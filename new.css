@@ -1,7 +1,9 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: cursive;
+    font-family: 'Orbitron', sans-serif;
 }
 
 
@@ -27,6 +29,7 @@ font-size: 18px;
     list-style: none;
     padding: 28px 20px;
     align-items: center;
+    padding-top: 34px;
 }
 .nav-list li a{
    text-decoration: none;
@@ -34,7 +37,7 @@ font-size: 18px;
 } 
 .nav-list li a:hover{
     text-decoration: none;
-    color: #ffffff;
+   color: rgba(255, 228, 196, 0.349);
  } 
 .rightnav{
     margin-right: 10px;
@@ -44,7 +47,7 @@ font-size: 18px;
 #search{
     padding: 5px;
     font-size: 17px;
-    border: 2px rgb(73, 98, 112);
+    border: 2px rgb(73, 98, 112)s;
     border-radius:  9 px;
 }
 .background{
@@ -73,33 +76,110 @@ background-blend-mode: darken;
     justify-content: center;
 }
 .secondHalf p{
-    font-size: 30px;
-    color: snow;
+    color: white;
+    font-size: 35px;
     font-family: cursive;
 }
-
 
 .banner{
     padding-top: 190px;
 }
 .btn-sub{
-    border: 2px solid rgba(0, 255, 85, 0.7);
+    border: 3px solid #009688;
     border-radius: 10px;
     width:200px;
     height: 40px;
     font-size: 20px;
     background: none;
     cursor: pointer;
-    color:  rgba(0, 255, 85, 0.7);
+    color:  #ffffff;
+    transition: ease-out 0.3s;
+    outline: none;
 
 }
+
 .btn-disc{
-    border: 2px solid rgba(0, 255, 85, 0.7);
+    border: 3px solid #009688;
     border-radius: 10px;
     width:200px;
     height: 40px;
     font-size: 20px;
     background: none;
     cursor: pointer;
-    color:  rgba(0, 255, 85, 0.7);
+    color: #ffffff;
+}
+.btn-sm{
+    padding: 5px;
+    font-size: 17px;
+
+}
+.About-us{
+padding-top: 30px;
+    height: 200px;
+    background-color: rgba(20,20,20);
+    
+    align-items: center;
+}
+.About-us p{
+    font-family:monospace;
+    font-size: 21px;
+    color: white;
+}
+.About-head p{
+    font-family:cursive ;
+    color: white;
+   font-size:  45px;
+}
+
+.more-channels-head p{
+    font-size: 45px;
+    color: #ffffff;
+}
+.backgroundB{
+    background: rgba(0, 0, 0, 0.7) url(bacdrop.jpg);
+    background-size: cover;
+background-blend-mode: darken;
+}
+.apps-used{
+    padding-top: 22px;
+
+}
+.apps-used p{
+    color: white;
+}
+.apps-body{
+    padding: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Title1 p{
+    color: #ffffff;
+    font-size: 32px;
+}
+.apps-body2{
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.backgroundTEst{
+    
+    background: rgba(0, 0, 0, 0.7) url(try.jpg);
+    background-size: cover;
+background-blend-mode: darken;
+}
+.apps-body2 p{
+    color: #ffffff;
+}
+.backgroundC{
+    
+    background:rgba(0, 0, 0, 0.7) url(pareshaan.jpg) ;
+    background-size: cover;
+background-blend-mode: darken;
+
+}
+.app1-desc p{
+    color: #ffffff;
 }
